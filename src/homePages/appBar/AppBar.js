@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { faFire } from '@fortawesome/free-solid-svg-icons'
 //import logo from './toppng.com-free-fire-png-logo-fire-flame-clipart-366x600.png'
 function AppBar() {
   return (
@@ -7,9 +8,9 @@ function AppBar() {
     <nav class="flex items-center justify-between flex-wrap bg-[#0F2E71] p-4" >
       <div class="flex items-center px-7 flex-shrink-0 text-white mr-6">
       <a href="https://flowbite.com/" class="flex items-center">
-        <img src='https://flowbite.com/' ></img>
+        <FontAwesomeIcon className='mb-2 text-3xl font-bold tracking-tight px-2 text-gray-900 dark:text-white ' icon={faFire}></FontAwesomeIcon>  
       </a>
-      <h5 class="mb-2 text-3xl font-bold tracking-tight px-5 text-gray-900 dark:text-white">MetanoGas</h5>
+      <h5 class="mb-2 text-3xl font-bold tracking-tight px-1 text-gray-900 dark:text-white">MetanoGas</h5>
       </div>
       <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
