@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MetanoGas/static/css/main.ceb96fdc.css",
-    "main.js": "/MetanoGas/static/js/main.5aed5280.js",
+    "main.css": "/MetanoGas/static/css/main.008c312b.css",
+    "main.js": "/MetanoGas/static/js/main.08ae8583.js",
     "static/js/787.bccb9898.chunk.js": "/MetanoGas/static/js/787.bccb9898.chunk.js",
     "static/media/logo.svg": "/MetanoGas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/MetanoGas/index.html",
-    "main.ceb96fdc.css.map": "/MetanoGas/static/css/main.ceb96fdc.css.map",
-    "main.5aed5280.js.map": "/MetanoGas/static/js/main.5aed5280.js.map",
+    "main.008c312b.css.map": "/MetanoGas/static/css/main.008c312b.css.map",
+    "main.08ae8583.js.map": "/MetanoGas/static/js/main.08ae8583.js.map",
     "787.bccb9898.chunk.js.map": "/MetanoGas/static/js/787.bccb9898.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb96fdc.css",
-    "static/js/main.5aed5280.js"
+    "static/css/main.008c312b.css",
+    "static/js/main.08ae8583.js"
   ]
 }
