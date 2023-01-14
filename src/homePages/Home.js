@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
+import 'animate.css';
 function Home() {
     const slides = [
         {
@@ -40,15 +41,15 @@ function Home() {
         setCurrentIndex(slideIndex);
       };
     return (
-    <section className='max-w-[full] h-[700px] w-1300px bg-[#0F2E71]'>
+    <section className='max-w-[full] h-[700px] w-1300px bg-[#0F2E71]' id='home'>
    <div class="h-56 grid grid-cols-1 gap-4 content-start ... md:grid-cols-2">
   
 <div class="max-w-[1100px] h-[650px] w-1100px m-auto py-20 px-10 relative group ">
-<h1 class="mb-4 text-7xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Titulo</span> Principal</h1>
+<h1 class="animate__animated animate__fadeInLeft mb-4 text-7xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl "><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Titulo</span> Principal</h1>
 <p class="text-2xl font-normal text-white lg:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
     <div class="items-center justify-center py-14 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         
-        <a href="#" class="w-full sm:w-auto text-white rounded-lg inline-flex items-center justify-center px-6 py-5 bg-sky-500/100  hover:bg-blue  focus:border-blue-400 ">
+        <a href="#contact" class="w-full sm:w-auto text-white rounded-lg inline-flex items-center justify-center px-6 py-5 bg-sky-500/100  hover:bg-blue  focus:border-blue-400 ">
           <div class="text-left">
                 <div class="-mt-1 font-sans text-x font-semibold">Contactanos</div>
             </div>
@@ -56,7 +57,7 @@ function Home() {
     </div>
 </div>
 
-  <div><div className='max-w-[1100px] h-[650px] w-1100px m-auto py-6 px-4 relative group hidden md:block'>
+  <div><div className='animate__animated animate__fadeInRight max-w-[1100px] h-[650px] w-1100px m-auto py-6 px-4 relative group hidden md:block'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500  '

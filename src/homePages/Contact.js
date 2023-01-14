@@ -7,7 +7,7 @@ import { faMapLocation } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
   return (
-    <section className='max-w-[full] h-[1400px] w-1300px bg-[#0F2E71] md:h-[780px]'>    
+    <section className='max-w-[full] h-[1400px] w-1300px bg-[#0F2E71] md:h-[780px]' id='contact'>    
 
        <div class="h-56 grid grid-cols-1 gap-4 content-start ... md:grid-cols-1 md:grid-cols-2">
           <div class="max-w-[1100px] h-[650px] w-1100px m-auto py-20 px-10 relative group ">

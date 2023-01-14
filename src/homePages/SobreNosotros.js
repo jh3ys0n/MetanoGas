@@ -2,7 +2,7 @@ import React from 'react'
 function SobreNosotros() {
   return (
     <section>
-        <div className="  max-w-[full]  w-full m-auto py-16 px-9 relative group text-center  " >
+        <div className="  max-w-[full]  w-full m-auto py-16 px-9 relative group text-center  " id='about_us'>
           <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#0F2E71] sm:text-4xl sm:p-1 lg:text-6xl ">METANO GAS</h1>
             <p class="mb-6 text-lg font-normal py-8 lg:text-xl sm:p-1 xl:px-48 ">Transformamos nuestra visión de futuro a través de la actuación en nuevos negocios, generando valor y rentabilidad para nuestros accionistas y el Estado boliviano
 
